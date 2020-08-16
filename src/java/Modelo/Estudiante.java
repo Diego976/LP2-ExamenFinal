@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ModeloDAO;
+package Modelo;
 
 /**
  *
  * @author USER
  */
-public class AlumnoDAO {
+public class Estudiante {
     
 }
