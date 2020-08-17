@@ -14,7 +14,7 @@
     </head>
     <body>
         <div class="container">
-            <form name="AgregarEstudianteForm" action="ControladorEstudiante" method="get">
+            <form name="AgregarEstudianteForm" action="Controlador" method="get">
                 <table  class="table">
                     <thead>
                         <tr>
@@ -36,30 +36,23 @@
                         </tr>
                         <tr>
                             <td class="text-right">Codigo</td>
-                            <td><input class="form-control" type="text" name="f_codigo" value="" maxlength="9" size="12" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-right">Direccion</td>
-                            <td><input class="form-control" type="text" name="f_direccion" value="" maxlength="40" size="20" /></td>
+                            <td><input class="form-control" type="text" name="f_codigo" value="" maxlength="12" size="12" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Estado</td>
-                            <td><select class="dropdown-toggle" name="f_estado">
-                                    <option value="A">Activo</option>
-                                    <option value="I">Inacctivo</option>
-                                </select></td>
+                            <td><input class="form-control" type="text" name="f_estado" value="" maxlength="1" size="2" /></td>
                         </tr>
                         <tr>
                             <td colspan="2" class="text-center">
                                 <input class="btn-primary" type="submit" value="Agregar Estudiante" name="agregar" />
                                 <input type="hidden" value="agregarestudiante02" name="f_accion"/>
-
+                                    
                             </td>
                         </tr>
-
+                        
                     </tbody>
                 </table>
-
+                
             </form>
         </div>
     </body>
