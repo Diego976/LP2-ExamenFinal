@@ -1,7 +1,7 @@
 <%-- 
     Document   : ListarCarrera
     Created on : 16/08/2020, 11:18:35 PM
-    Author     : w10
+    Author     : DIEGO VASQUEZ
 --%>
 
 <%@page import="java.util.Iterator"%>
@@ -20,6 +20,7 @@
         <div class="container">
             <h1>Listado de Carreras</h1>
             <a class="btn btn-success" href="ControladorCarrera?f_accion=agregarcarrera01">Agregar Nueva Carrera</a>
+            <a class="btn btn-success" href="index.html">Volver</a>
             <table class="table table-bordered">
                 <thead>
                     <tr>

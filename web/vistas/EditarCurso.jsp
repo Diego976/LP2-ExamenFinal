@@ -56,6 +56,11 @@
 
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2" class="text-center">
+                                <a class="btn btn-success" href="index.html">Volver</a>      
+                            </td>
+                        </tr>
 
                     </tbody>
                 </table>

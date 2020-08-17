@@ -1,7 +1,7 @@
 <%-- 
     Document   : AgregarCarrera
     Created on : 16/08/2020, 11:19:29 PM
-    Author     : w10
+    Author     : DIEGO VASQUEZ
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -39,8 +39,12 @@
                                 <input type="hidden" value="agregarcarrera02" name="f_accion"/>
                                     
                             </td>
+                        <tr>
+                            <td colspan="2" class="text-center">
+                                <a class="btn btn-success" href="index.html">Volver</a>      
+                            </td>
                         </tr>
-                        
+
                     </tbody>
                 </table>
                 

@@ -1,7 +1,7 @@
 <%-- 
     Document   : EditarCarrera
     Created on : 16/08/2020, 11:19:13 PM
-    Author     : w10
+    Author     : DIEGO VASQUEZ
 --%>
 
 <%@page import="Modelo.Carrera"%>
@@ -46,6 +46,11 @@
                                 <input type="hidden" value="editarcarrera02" name="f_accion"/>
                                 <input type="hidden" value="<% out.print(carrera.getIdcarrera()); %>" name="f_idcarrera">
 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-center">
+                                <a class="btn btn-success" href="index.html">Volver</a>      
                             </td>
                         </tr>
 

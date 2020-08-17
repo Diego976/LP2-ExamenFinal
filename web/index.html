@@ -12,11 +12,21 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="container">
-            <a class="btn btn-success btn-lg" href="ControladorEstudiante?f_accion=listarestudiante">Listar Estudiantes</a>
-            <a class="btn btn-success btn-lg" href="ControladorCurso?f_accion=listarcurso">Listar Cursos</a>
-            <a class="btn btn-success btn-lg" href="ControladorCarrera?f_accion=listarcarrera">Listar Carrera</a>
-            <a class="btn btn-success btn-lg" href="ControladorMatricula?f_accion=listarmatricula">Listar Matricula</a>
-        </div>
+        
+        <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <td><a class="btn btn-success btn-lg" href="ControladorEstudiante?f_accion=listarestudiante">Listar Estudiantes</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="btn btn-success btn-lg" href="ControladorCurso?f_accion=listarcurso">Listar Cursos</a></td>
+                    </tr>
+                    <tr>
+                       <td><a class="btn btn-success btn-lg" href="ControladorCarrera?f_accion=listarcarrera">Listar Carrera</a></td>
+                    </tr>
+                    <tr>
+                       <td><a class="btn btn-success btn-lg" href="ControladorMatricula?f_accion=listarmatricula">Listar Matricula</a></td>
+                    </tr>
+            </table>
     </body>
 </html>

@@ -20,6 +20,7 @@
         <div class="container">
             <h1>Listado de Estudiantes</h1>
             <a class="btn btn-success" href="ControladorEstudiante?f_accion=agregarestudiante01">Agregar Nuevo Estudiante</a>
+            <a class="btn btn-success" href="index.html">Volver</a>
             <table class="table table-bordered">
                 <thead>
                     <tr>
