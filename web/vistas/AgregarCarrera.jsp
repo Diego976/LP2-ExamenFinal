@@ -24,7 +24,7 @@
                     <tbody>
                         <tr>
                             <td class="text-right">Nombre</td>
-                            <td><input class="form-control" type="text" name="f_nombre" value="" maxlength="50" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_nombre" value="" maxlength="50" size="50" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Estado</td>

@@ -14,7 +14,7 @@
     </head>
     <body>
         <div class="container">
-            <form name="AgregarEstudianteForm" action="Controlador" method="get">
+            <form name="AgregarEstudianteForm" action="ControladorEstudiante" method="get">
                 <table  class="table">
                     <thead>
                         <tr>
@@ -24,23 +24,30 @@
                     <tbody>
                         <tr>
                             <td class="text-right">Nombre</td>
-                            <td><input class="form-control" type="text" name="f_nombre" value="" maxlength="30" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_nombre" value="" maxlength="30" size="30" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Apellido</td>
-                            <td><input class="form-control" type="text" name="f_apellidos" value="" maxlength="40" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_apellidos" value="" maxlength="50" size="50" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">DNI</td>
-                            <td><input class="form-control" type="text" name="f_dni" value="" maxlength="8" size="8" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_dni" value="" maxlength="8" size="8" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Codigo</td>
-                            <td><input class="form-control" type="text" name="f_codigo" value="" maxlength="12" size="12" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_codigo" value="" maxlength="9" size="9" /></td>
+                        </tr>
+                        <tr>
+                            <td class="text-right">Direccion</td>
+                            <td><input class="form-horizontal" type="text" name="f_direccion" value="" maxlength="50" size="50" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Estado</td>
-                            <td><input class="form-control" type="text" name="f_estado" value="" maxlength="1" size="2" /></td>
+                            <td><select class="dropdown-toggle" name="f_estado">
+                                    <option value="A">Activo</option>
+                                    <option value="I">Inacctivo</option>
+                                </select></td>
                         </tr>
                         <tr>
                             <td colspan="2" class="text-center">

@@ -31,15 +31,15 @@
                     <tbody>
                         <tr>
                             <td class="text-right">Nombre</td>
-                            <td><input class="form-control" type="text" name="f_nombre" value="<% out.println(curso.getNombre()); %>" maxlength="30" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_nombre" value="<% out.println(curso.getNombre()); %>" maxlength="50" size="50" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Horas</td>
-                            <td><input class="form-control" type="text" name="f_horas" value="<% out.println(curso.getHoras()); %>" maxlength="8" size="8" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_horas" value="<% out.println(curso.getHoras()); %>" maxlength="11" size="11" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Creditos</td>
-                            <td><input class="form-control" type="text" name="f_creditos" value="<% out.println(curso.getCreditos()); %>" maxlength="8" size="8" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_creditos" value="<% out.println(curso.getCreditos()); %>" maxlength="11" size="11" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Estado</td>

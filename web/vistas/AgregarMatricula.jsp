@@ -24,11 +24,11 @@
                     <tbody>
                         <tr>
                             <td class="text-right">Semestre</td>
-                            <td><input class="form-control" type="text" name="f_semestre" value="" maxlength="30" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_semestre" value="" maxlength="6" size="6" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Ciclo</td>
-                            <td><input class="form-control" type="text" name="f_ciclo" value="" maxlength="40" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_ciclo" value="" maxlength="11" size="11" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Estado</td>

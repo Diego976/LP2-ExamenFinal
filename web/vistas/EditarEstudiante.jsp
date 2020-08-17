@@ -31,23 +31,23 @@
                     <tbody>
                         <tr>
                             <td class="text-right">Nombre</td>
-                            <td><input class="form-control" type="text" name="f_nombre" value="<% out.println(estudiante.getNombre()); %>" maxlength="30" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_nombre" value="<% out.println(estudiante.getNombre()); %>" maxlength="30" size="30" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">"Apellido</td>
-                            <td><input class="form-control" type="text" name="f_apellidos" value="<% out.println(estudiante.getApellidos()); %>" maxlength="40" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_apellidos" value="<% out.println(estudiante.getApellidos()); %>" maxlength="50" size="50" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">DNI</td>
-                            <td><input class="form-control" type="text" name="f_dni" value="<% out.println(estudiante.getDni()); %>" maxlength="8" size="8" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_dni" value="<% out.println(estudiante.getDni()); %>" maxlength="8" size="8" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Codigo</td>
-                            <td><input class="form-control" type="text" name="f_codigo" value="<% out.println(estudiante.getCodigo()); %>" maxlength="9" size="12" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_codigo" value="<% out.println(estudiante.getCodigo()); %>" maxlength="9" size="9" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Direccion</td>
-                            <td><input class="form-control" type="text" name="f_direccion" value="<% out.println(estudiante.getDireccion()); %>" maxlength="40" size="20" /></td>
+                            <td><input class="form-horizontal" type="text" name="f_direccion" value="<% out.println(estudiante.getDireccion()); %>" maxlength="50" size="50" /></td>
                         </tr>
                         <tr>
                             <td class="text-right">Estado</td>
