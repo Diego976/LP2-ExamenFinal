@@ -5,10 +5,18 @@
  */
 package Interfaces;
 
+import Modelo.Carrera;
+import java.util.List;
+
 /**
  *
  * @author USER
  */
 public interface CRUDcarrera {
+    public List listarcarrera(); // listar
+    public Carrera buscarcarrera(int idcarrera); // buscar
+    public boolean agregarcarrera(Carrera carrera); // agregar
+    public boolean editarcarrera(Carrera carrera); // editar
+    public boolean eliminarcarrera(int idcarrera); // eliminar
     
 }
