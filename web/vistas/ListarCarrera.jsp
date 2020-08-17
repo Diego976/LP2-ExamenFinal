@@ -13,7 +13,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Listar Estudiantes</title>
+        <title>Listar Carrera</title>
         <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
