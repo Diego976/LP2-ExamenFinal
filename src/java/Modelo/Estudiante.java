@@ -30,7 +30,15 @@ public class Estudiante {
         this.direccion = direccion;
         this.estado = estado;
     }
+    
+    public String getEstado() {
+        return estado;
+    }
 
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    
     public int getIdestudiante() {
         return idestudiante;
     }
@@ -79,13 +87,6 @@ public class Estudiante {
         this.direccion = direccion;
     }
 
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
     
     
 }

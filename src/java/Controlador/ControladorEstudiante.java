@@ -72,7 +72,7 @@ public class ControladorEstudiante extends HttpServlet{
             acceso = listarestudiante;
         }else if (s_accion.equalsIgnoreCase("agregarestudiante01")) {
             acceso = agregarestudiante;
-        }else if (s_accion.equalsIgnoreCase("agregarestud8iante02")) {
+        }else if (s_accion.equalsIgnoreCase("agregarestudiante02")) {
             String s_nombre = request.getParameter("f_nombre");
             String s_apellidos = request.getParameter("f_apellidos");
             String s_dni = request.getParameter("f_dni");
