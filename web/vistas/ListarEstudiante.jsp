@@ -42,7 +42,7 @@
                         Estudiante estudiante = null;
                         while (iterator.hasNext()) {
                             estudiante = iterator.next();
-
+                        
 
                     %>
                     <tr>

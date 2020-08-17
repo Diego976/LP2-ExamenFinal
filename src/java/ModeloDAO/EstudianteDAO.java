@@ -27,8 +27,7 @@ public class EstudianteDAO implements CRUDestudiante{
     @Override
     public List listarestudiante() {
         ArrayList<Estudiante> estudiantes = new ArrayList<>();
-        String consulta = " select * "
-                        + "from estudiante ";
+        String consulta = " select * from estudiante ";
         try {
             con = cn.getConnection();
             pst = con.prepareStatement(consulta);
